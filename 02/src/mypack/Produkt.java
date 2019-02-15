@@ -11,7 +11,7 @@ public abstract class Produkt {
 	}
 	
 	public Produkt() {
-		newZustandInArbeit(this);
+		new ZustandInArbeit(this);
 	}
 	
 }
