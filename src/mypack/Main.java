@@ -21,7 +21,6 @@ public class Main {
 		System.out.println();
 		// 2
 		fahrrad.speichern();
-		System.out.println();
 		// 3
 		fahrrad.produktFreigeben();
 		fahrrad.produktFreigeben();
