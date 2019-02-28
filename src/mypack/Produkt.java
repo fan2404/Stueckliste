@@ -9,9 +9,9 @@ public abstract class Produkt {
 
 	private Zustand zustand;
 	private int ebene;
-	protected String name;
-	protected int anzahl;
-	protected List<Produkt> knoten;
+	private String name;
+	private int anzahl;
+	private List<Produkt> knoten;
 
 	public Produkt(String name, int anzahl) {
 		ebene = 0;
